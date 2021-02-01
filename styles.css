@@ -53,6 +53,8 @@ body {
   font-family: var(--fontFamily);
   color: var(--fg);
   margin-bottom: 0.25em;
+
+  text-shadow: 2px 2px 0px #272727;
 }
 
 #search {
