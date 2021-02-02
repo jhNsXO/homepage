@@ -25,6 +25,7 @@ body {
     left: 0;
     overflow: hidden;
     z-index: -100;
+    filter: blur(5px);
 }
 
 #fullscreen-bg-video {
