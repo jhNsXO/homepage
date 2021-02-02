@@ -12,10 +12,6 @@
 
   <body>
     <div id="fullscreen-bg">
-      <video playsinline autoplay muted loop poster="background.png" id="fullscreen-bg-video">
-        <source src="background.mp4" type="video/mp4">
-        <source src="background.webm" type="video/webm">
-      </video>
     </div>
 
     <div id="search">
@@ -39,6 +35,7 @@
     </div>
 
     <script src="bookmarks.js"></script>
+    <script src="bg.js"></script>
     <script>
       const searchUrl = "https://google.com/search?q=";
       // Search on enter key event
@@ -107,9 +104,11 @@
           .join("");
       }
 
+
       window.onload = () => {
         setupBookmarks();
         getWeather();
+        setBG();
         // Set up the clock
         document.getElementById("clock").innerHTML = getTime();
         // Set clock interval to tick clock
