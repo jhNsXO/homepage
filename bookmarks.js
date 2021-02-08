@@ -14,7 +14,7 @@ const bookmarks = [
       { name: "Youtube", url: "https://youtube.com" },
       { name: "Netflix", url: "https://netflix.com" },
       { name: "Disney+", url: "https://disneyplus.com/" },
-      { name: "Amazon Prime", url: "https://www.amazon.com/Amazon-Video",
+      { name: "Prime", url: "https://www.amazon.com/Amazon-Video",
       },
     ],
   },
