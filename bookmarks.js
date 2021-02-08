@@ -4,7 +4,6 @@ const bookmarks = [
     title: "Daily",
     links: [
       { name: "Inbox", url: "https://inbox.google.com" },
-      { name: "GitHub", url: "https://github.com" },
       { name: "Drive", url: "https://drive.google.com" },
     ],
   },
@@ -32,6 +31,14 @@ const bookmarks = [
       { name: "Facebook", url: "https://facebook.com" },
       { name: "Twitter", url: "https://twitter.com" },
       { name: "Reddit", url: "https://reddit.com/" },
+    ],
+  },
+  {
+    title: "Dev",
+    links: [
+      { name: "GitHub", url: "https://github.com" },
+      { name: "JSFiddle", url: "https://jsfiddle.net/" },
+      { name: "Cloudflare", url: "https://cloudflare.com/en-gb/" },
     ],
   },
 ];
