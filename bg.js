@@ -1,9 +1,11 @@
 function setBG() {
+  var api = "ZWM1YmU1ZjkxNWI5NTY4ZjU1NDhjYWY4NDQ1ODkwZTI=";
+  var dec = atob(api);
   let xhr = new XMLHttpRequest();
   // Request to open weather map
   xhr.open(
     "GET",
-    "https://api.openweathermap.org/data/2.5/weather?id=2778067&units=metric&appid=e5b292ae2f9dae5f29e11499c2d82ece"
+    "https://api.openweathermap.org/data/2.5/weather?id=2778067&units=metric&appid="+dec+""
   );
   xhr.onload = () => {
     if (xhr.readyState === 4) {
