@@ -13,7 +13,7 @@ const bookmarks = [
       { name: "Youtube", url: "https://youtube.com" },
       { name: "Netflix", url: "https://netflix.com" },
       { name: "Disney+", url: "https://disneyplus.com/" },
-      { name: "Prime", url: "https://www.amazon.com/Amazon-Video",
+      { name: "Prime", url: "https://www.amazon.de/-/en/Amazon-Video/b/?ie=UTF8&node=3010075031",
       },
     ],
   },
