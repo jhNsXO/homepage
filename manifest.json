@@ -2,10 +2,13 @@
   "name": "New Tab Ex",
   "description": "Replace New Tab",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "chrome_url_overrides" : {
     "newtab": "index.html"
-}
+},
 
+  "content_security_policy": {
+    "sandbox": "sandbox allow-scripts; script-src 'self' 'sha256-1d8625699e2eb5b029fd92be30e4f4d1afc30a3ebdca9cec94db5ec23b652ae6' 'sha256-3b501dafc6f17c39878f1ae72050c0bef73d44dc718c2efe3cc9f660a73dacca';"
+}
 }
