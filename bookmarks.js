@@ -31,6 +31,7 @@ const bookmarks = [
       { name: "Facebook", url: "https://facebook.com" },
       { name: "Twitter", url: "https://twitter.com" },
       { name: "Reddit", url: "https://reddit.com/" },
+      { name: "BlueSky", url: "https://bsky.app/" },
     ],
   },
   {
